@@ -3,8 +3,8 @@ instances {
   id: "boss"
   prototype: "/game/enemy/boss.go"
   position {
-    x: 320.0
-    y: 180.0
+    x: 0.0
+    y: 0.0
     z: 0.5
   }
   rotation {

@@ -12,35 +12,35 @@ local volumes = {
         amp = 0.25
     },
     {
-        vol = 7,
-        amp = 0.35
+        vol = 2,
+        amp = 0.5
     },
     {
-        vol = 3,
+        vol = 2,
+        amp = 0.15
+    },
+    {
+        vol = 1.5,
+        amp = 0.15
+    },
+    {
+        vol = 1.5,
         amp = 0.25
     },
     {
-        vol = 3,
+        vol = 2,
         amp = 0.25
     },
     {
-        vol = 3,
-        amp = 0.25
+        vol = 2,
+        amp = 0.20
     },
     {
-        vol = 3,
-        amp = 0.25
+        vol = 2.2,
+        amp = 0.20
     },
     {
-        vol = 3,
-        amp = 0.25
-    },
-    {
-        vol = 3,
-        amp = 0.25
-    },
-    {
-        vol = 3,
+        vol = 2,
         amp = 0.25
     }
 }

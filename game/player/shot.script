@@ -12,7 +12,6 @@ function init(self)
 	local pos = go.get_position()
 	pos.z = pos.z - 0.1
 	go.set_position(pos)
-	
 end
 
 function update(self, dt)
@@ -20,7 +19,6 @@ function update(self, dt)
 	go.set_position(pos + self.vel)
 
 	if not data.incircle(go.get_position()) then
-		print("DELETE")
 		go.delete()
 	end
 end

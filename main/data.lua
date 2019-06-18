@@ -26,7 +26,7 @@ M.laser = true
 
 -- MOD PLAYER
 M.is_dev = false -- If you are building on Defold Editor then set it true. If you are bundling set it false
-M.build_path = "/Users/selimanac/Development/Defold/Native Extension/Nanowar-modplayer/res/common/assets" -- Full path for building on Defold Editor when developing: "<FULL_PATH>/res/common/assets/"
+M.build_path = "" -- Full path for building on Defold Editor when developing: "<FULL_PATH>/res/common/assets/"
 M.game_music = 0
 M.menu_music = 0
 

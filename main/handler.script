@@ -7,20 +7,15 @@ function init(self)
 	math.randomseed(os.time())
 	local t = math.random(1, 5)
 
-
 	--*************************************--
 	-- For building on Defold Editor.
 	if data.is_dev then
 		player.build_path(data.build_path)
 	end
---*************************************-
+	--*************************************-
 
-
---	data.game_music = player.load_music("/audio/level_1.xm")
 	data.menu_music = player.load_music("/audio/menu.xm")
---	player.xm_volume(data.game_music, 5, 0.25)
-	player.xm_volume(data.menu_music, 3, 0.25)
-	--sound.set_group_gain("master", 0.2)
+	player.xm_volume(data.menu_music, 2, 0.15)
 end
 
 function on_message(self, message_id, message, sender)
