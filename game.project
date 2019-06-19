@@ -17,7 +17,7 @@ default_texture_mag_filter = nearest
 shared_state = 1
 
 [project]
-title = Nanowar
+title = Nanowar-ModPlayer
 bundle_resources = /res
 dependencies = https://github.com/selimanac/defold-modplayer/archive/master.zip,https://github.com/britzl/defold-orthographic/archive/master.zip
 
@@ -35,4 +35,13 @@ max_count = 10
 
 [html5]
 splash_image = /assets/png/splash.png
+
+[ios]
+bundle_identifier = com.nanowar.modplayer
+
+[android]
+package = com.nanowar.modplayer
+
+[osx]
+bundle_identifier = com.nanowar.modplayer
 

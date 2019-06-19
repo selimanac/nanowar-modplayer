@@ -25,7 +25,7 @@ M.speedup = 0
 M.laser = true
 
 -- MOD PLAYER
-M.is_dev = false -- If you are building on Defold Editor then set it true. If you are bundling set it false
+M.is_dev = true -- If you are building on Defold Editor then set it true. If you are bundling set it false
 M.build_path = "" -- Full path for building on Defold Editor when developing: "<FULL_PATH>/res/common/assets/"
 M.game_music = 0
 M.menu_music = 0
