@@ -14,8 +14,9 @@ function init(self)
 	end
 	--*************************************-
 
-	data.menu_music = player.load_music("/audio/menu.xm")
+	data.menu_music = player.load_music("audio/menu.xm")
 	player.xm_volume(data.menu_music, 2, 0.15)
+	player.play_music(data.menu_music)
 end
 
 function on_message(self, message_id, message, sender)

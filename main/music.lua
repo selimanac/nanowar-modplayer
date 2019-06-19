@@ -46,12 +46,12 @@ local volumes = {
 }
 
 function music.loadmusic()
-    print("Load Music: /audio/level_" .. data.level .. ".xm")
+    print("Load Music: audio/level_" .. data.level .. ".xm")
     if player.is_music_playing(data.game_music) then
         player.stop_music(data.game_music)
         player.unload_music(data.game_music)
     end
-    data.game_music = player.load_music("/audio/level_" .. data.level .. ".xm")
+    data.game_music = player.load_music("audio/level_" .. data.level .. ".xm")
 end
 
 function music.playmusic()

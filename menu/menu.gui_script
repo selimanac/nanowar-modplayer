@@ -1,4 +1,3 @@
-
 local data = require("main.data")
 local music = require "main.music"
 
@@ -18,10 +17,6 @@ function init(self)
 	local str = string.format("BEST SCORE : %05d", data.bestscore)
 	gui.set_text(gui.get_node("bestscore"), str)
 	data.state = data.STATE_MENU
-
-	player.play_music(data.menu_music)
-
-	
 end
 
 local function newgame(self)
@@ -35,7 +30,6 @@ local function newgame(self)
 	msg.post("main:/handler", "show_game")
 	--sound.play("main:/sound#music")
 	--player.play_music(data.game_music)
-	
 end
 
 local function show(self)
@@ -46,7 +40,7 @@ local function show(self)
 end
 
 local function hide(self)
-	gui.animate(self.node, gui.PROP_POSITION, vmath.vector3(data.SCREEN_W, data.SCREEN_H-20, 0), gui.EASING_INOUTQUAD, 0.5, 0, disablenode)
+	gui.animate(self.node, gui.PROP_POSITION, vmath.vector3(data.SCREEN_W, data.SCREEN_H - 20, 0), gui.EASING_INOUTQUAD, 0.5, 0, disablenode)
 	gui.animate(self.node, gui.PROP_COLOR, vmath.vector4(1, 1, 1, 0), gui.EASING_INOUTQUAD, 0.5)
 end
 
