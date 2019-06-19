@@ -4,7 +4,7 @@ music = {}
 
 local volumes = {
     {
-        vol = 2,
+        vol = 3,
         amp = 0.25
     },
     {
@@ -13,7 +13,7 @@ local volumes = {
     },
     {
         vol = 2,
-        amp = 0.5
+        amp = 0.25
     },
     {
         vol = 2,
