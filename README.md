@@ -7,6 +7,8 @@ I made some changes for testing [Mod Player](https://github.com/selimanac/defold
 - Added 1 menu and 10 different level music for testing
 - Added [Orthographic camera](https://github.com/britzl/defold-orthographic)
 
+You can test it on itch.io: https://selimanac.itch.io/mod-player-demo-nanowar
+
 ### Settings
 
 Don't forget to set your files path in [main/data.lu](https://github.com/selimanac/nanowar-modplayer/blob/master/main/data.lua)a for [player.build_path(full_path:string)](https://github.com/selimanac/defold-modplayer#api)
